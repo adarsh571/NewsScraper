@@ -1,7 +1,7 @@
 import streamlit as st
 from newsapi import NewsApiClient
 from gnews import GNews
-from newspaper import Article
+from newspaper4k import Article
 import pandas as pd
 from datetime import datetime, timedelta
 import io
