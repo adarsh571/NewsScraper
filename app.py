@@ -8,7 +8,7 @@ import io
 
 # --- CONFIGURATION ---
 st.set_page_config(page_title="AI News Scraper & Summarizer", layout="wide")
-NEWS_API_KEY = "YOUR_NEWSAPI_KEY_HERE" # Get from newsapi.org
+NEWS_API_KEY = st.secrets["NEWS_API_KEY"] 
 
 # --- HELPER FUNCTIONS ---
 def get_summary(url):
