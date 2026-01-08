@@ -1,0 +1,6 @@
+streamlit
+newsapi-python
+gnews
+newspaper3k
+pandas
+xlsxwriter
